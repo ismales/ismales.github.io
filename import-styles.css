@@ -20,8 +20,8 @@
 @import 'blocks/button/expand/button__expand.css';
 
 @import 'blocks/main/main.css';
-@import 'blocks/main/main__desktop.css';
-@import 'blocks/main/head/--left-border/main__head--left-border.css';
+@import 'blocks/main/main_desktop.css';
+@import 'blocks/main/head/--left-border/main_head--left-border.css';
 
 @import 'blocks/partition/partition.css';
 @import 'blocks/partition/item/partition__item.css';
