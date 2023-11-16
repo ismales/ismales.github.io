@@ -17,16 +17,16 @@
 @import 'blocks/button/--bg-img/button--bg-img-checkstatus.css';
 @import 'blocks/button/--bg-img/button--bg-img-repair.css';
 @import 'blocks/button/--square/button--square.css';
-@import 'blocks/button/__expand/button__expand.css';
+@import 'blocks/button/expand/button__expand.css';
 
 @import 'blocks/main/main.css';
 @import 'blocks/main/main__desktop.css';
-@import 'blocks/main/__head/--left-border/main__head--left-border.css';
+@import 'blocks/main/head/--left-border/main__head--left-border.css';
 
 @import 'blocks/partition/partition.css';
-@import 'blocks/partition/__item/partition__item.css';
-@import 'blocks/partition/__list/partition__list.css';
-@import 'blocks/partition/__item/--active/partition__item--active.css';
+@import 'blocks/partition/item/partition__item.css';
+@import 'blocks/partition/list/partition__list.css';
+@import 'blocks/partition/item/--active/partition__item--active.css';
 
 @import 'blocks/about-company/about-company.css';
 @import 'blocks/button/--bg-img/button--bg-img-expand.css';
