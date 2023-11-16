@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CSP</title>
+    <link rel="stylesheet" href="import-styles.css" />
+    <link rel="stylesheet" href="font/TTLakes/stylesheet.css" />
+    <link rel="icon" href="/img/favicon/company.png" type="image/png" />
   </head>
+
   <body>
-    <h1>hi</h1>
+    <header class="header">
+      <nav class="menu header__left-side gap">
+        <button class="button button--circle button--bg-img-burger"></button>
+        <div class="divider menu__divider"></div>
+        <a class="menu__link" href="#">
+          <img src="/img/icon/company.svg" alt="Логотип компании"
+        /></a>
+      </nav>
+      <nav class="buttons header__right-side gap">
+        <div class="contacts header__right-side gap">
+          <button class="button button--circle button--bg-img-call"></button>
+          <button class="button button--circle button--bg-img-chat"></button>
+          <button class="button button--circle button--bg-img-profile"></button>
+        </div>
+        <div class="divider"></div>
+        <div class="order header__right-side gap">
+          <button class="button button--circle button--bg-img-repair"></button>
+          <button class="button button--circle button--bg-img-checkstatus"></button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="desktop main__desktop">
+        <div class="main__head--left-border"></div>
+        <h1 class="head main__head">Услуги и сервисы</h1>
+        <div class="buttons desktop__buttons gap">
+          <div class="repair buttons desktop__buttons gap">
+            Оставить заявку<button class="button button--circle button--bg-img-repair"></button>
+          </div>
+          <div class="checkstatus buttons desktop__buttons gap">
+            Статус ремонта<button class="button button--circle button--bg-img-checkstatus"></button>
+          </div>
+        </div>
+      </div>
+
+      <nav class="partition main__partition">
+        <ul class="partition__list">
+          <li class="partition__item partition__item--active">
+            <a class="partition__link gray" href="#">Ремонтируемые бренды</a>
+          </li>
+          <li class="partition__item">
+            <a class="partition__link gray" href="#">Ремонтируемые устройства</a>
+          </li>
+          <li class="partition__item">
+            <a class="partition__link gray" href="#">Цены на услуги</a>
+          </li>
+          <li class="partition__item">
+            <a class="partition__link gray" href="#">Адреса сервисных центров</a>
+          </li>
+          <li class="partition__item">
+            <a class="partition__link gray" href="#">Специальные цены</a>
+          </li>
+          <li class="partition__item">
+            <a class="partition__link gray" href="#">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section about-company">
+        <div class="text">
+          <p class="text abount-company__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+            можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+          </p>
+          <br />
+          <p>
+            <span class="hidden-text-1"
+              >Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span
+            ><span class="hidden-text-2"
+              >, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+              обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span
+            >
+          </p>
+          <div class="button__expand">
+            <button class="button button__expand button--square button--bg-img-expand"></button
+            >Читать далее
+          </div>
+        </div>
+        <div class="image logo logo-company about-company__logo-company">
+          <img class="image about-company__image" src="/img/_MG_3223.png" alt="Логотип компании" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>

@@ -1,0 +1,10 @@
+.partition__list {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.partition__list::-webkit-scrollbar {
+    visibility: hidden;
+}

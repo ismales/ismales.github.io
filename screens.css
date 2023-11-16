@@ -1,0 +1,47 @@
+@media (min-width: 1120px) {
+    .header {
+        display: none;
+    }
+
+    .partition {
+        white-space: normal;
+    }
+
+    .partition__list {
+        overflow-x: auto;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop__buttons {
+        display: none;
+    }
+
+    .hidden-text-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .contacts {
+        display: none;
+    }
+
+    .menu__divider {
+        display: none;
+    }
+
+    .hidden-text-1 {
+        display: none;
+    }
+
+    .hidden-text-2 {
+        display: none;
+    }
+
+    .about-company {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
