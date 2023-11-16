@@ -1,39 +1,37 @@
-@import '/reset.css';
+@import 'reset.css';
 
-@import '/blocks/header/header.css';
-@import '/blocks/header/buttons/buttons.css';
-@import '/blocks/header/contacts/contacts.css';
-@import '/blocks/header/order/order.css';
-@import '/blocks/gap.css';
-@import '/blocks/gray.css';
+@import 'blocks/header/header.css';
+@import 'blocks/header/buttons/buttons.css';
+@import 'blocks/header/contacts/contacts.css';
+@import 'blocks/header/order/order.css';
+@import 'blocks/gap.css';
+@import 'blocks/gray.css';
 
-@import '/blocks/menu/menu.css';
-@import '/blocks/button/button.css';
-@import '/blocks/button/--circle/button--circle.css';
-@import '/blocks/button/--bg-img/button--bg-img-burger.css';
-@import '/blocks/button/--bg-img/button--bg-img-call.css';
-@import '/blocks/button/--bg-img/button--bg-img-chat.css';
-@import '/blocks/button/--bg-img/button--bg-img-profile.css';
-@import '/blocks/button/--bg-img/button--bg-img-checkstatus.css';
-@import '/blocks/button/--bg-img/button--bg-img-repair.css';
-@import '/blocks/button/--square/button--square.css';
-@import '/blocks/button/__expand/button__expand.css';
+@import 'blocks/menu/menu.css';
+@import 'blocks/button/button.css';
+@import 'blocks/button/--circle/button--circle.css';
+@import 'blocks/button/--bg-img/button--bg-img-burger.css';
+@import 'blocks/button/--bg-img/button--bg-img-call.css';
+@import 'blocks/button/--bg-img/button--bg-img-chat.css';
+@import 'blocks/button/--bg-img/button--bg-img-profile.css';
+@import 'blocks/button/--bg-img/button--bg-img-checkstatus.css';
+@import 'blocks/button/--bg-img/button--bg-img-repair.css';
+@import 'blocks/button/--square/button--square.css';
+@import 'blocks/button/__expand/button__expand.css';
 
-@import '/blocks/main/main.css';
-@import '/blocks/main/main__desktop.css';
-@import '/blocks/main/__head/--left-border/main__head--left-border.css';
+@import 'blocks/main/main.css';
+@import 'blocks/main/main__desktop.css';
+@import 'blocks/main/__head/--left-border/main__head--left-border.css';
 
-@import '/blocks/partition/partition.css';
-@import '/blocks/partition/__item/partition__item.css';
-@import '/blocks/partition/__list/partition__list.css';
-@import '/blocks/partition/__item/--active/partition__item--active.css';
+@import 'blocks/partition/partition.css';
+@import 'blocks/partition/__item/partition__item.css';
+@import 'blocks/partition/__list/partition__list.css';
+@import 'blocks/partition/__item/--active/partition__item--active.css';
 
-@import '/blocks/about-company/about-company.css';
-@import '/blocks/button/--bg-img/button--bg-img-expand.css';
+@import 'blocks/about-company/about-company.css';
+@import 'blocks/button/--bg-img/button--bg-img-expand.css';
 
+@import 'blocks/image/image.css';
+@import 'blocks/divider/divider.css';
 
-
-@import '/blocks/image/image.css';
-@import '/blocks/divider/divider.css';
-
-@import '/screens.css';
+@import 'screens.css';
