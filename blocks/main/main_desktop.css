@@ -1,0 +1,5 @@
+.main__desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

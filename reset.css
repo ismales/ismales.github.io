@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "TT Lakes", sans-serif;
+}
+
+ul,
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+}
