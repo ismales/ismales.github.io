@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mobile-menu</title>
+    <link rel="stylesheet" href="import-styles.css" />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link rel="icon" href="img/favicon/company.png" type="image/png" />
+  </head>
+  <body>
+    <div class="menu-side menu-side--shadow">
+      <header class="header header--no-border menu-side__header">
+        <nav class="menu header__left-side gap">
+          <button class="button button--circle button--bg-img-close"></button>
+          <a class="menu__link" href="#">
+            <img src="./img/icon/company.svg" alt="Логотип компании"
+          /></a>
+        </nav>
+        <button class="button button--circle button--bg-img-search"></button>
+      </header>
+      <main class="menu-side__main">
+        <ul class="list menu-side__list">
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Ремонт техники</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="menu-side__link--active link--active" href="#">Ремонтируемые бренды</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Ремонтируемые устройства</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Цены на услуги</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Адреса сервисных центров</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Специальные цены</a>
+          </li>
+          <li class="list__item menu-side__item">
+            <a class="gray" href="#">Отзывы</a>
+          </li>
+        </ul>
+      </main>
+      <footer class="footer menu-side__footer gap">
+        <div class="contacts contacts--flex-start gap menu-side__contacts">
+          <button class="button button--circle button--bg-img-call"></button>
+          <button class="button button--circle button--bg-img-chat"></button>
+          <button class="button button--circle button--bg-img-profile"></button>
+        </div>
+        <a class="link gray" href="mailto:x">mail@cps.com</a>
+        <a class="link gray text--bold" href="tel:x">8 800 890 8900</a>
+        <div class="choose-lang">
+          <a href="" class="link link--active">RU</a>
+          <a href="" class="link gray">EN</a>
+          <a href="" class="link gray">CH</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
