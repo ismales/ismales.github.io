@@ -102,11 +102,14 @@
     align-items: center;
 }
 
+.main-page__header {
+    padding: 15px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
     border-bottom: 1px solid #d9fff5;
 }
 
@@ -153,6 +156,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu-side__header {
+    margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 .menu-side__footer {
