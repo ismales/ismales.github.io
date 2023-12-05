@@ -1,6 +1,6 @@
 # ismales.github.io
 kata/webcore-project
 
-1.3 - https://ismales.github.io/index.html\
-1.4 - https://ismales.github.io/mobile-menu.html\
-1.5 - https://ismales.github.io/repair-brands.html\
+1.3 - <https://ismales.github.io/index.html>
+1.4 - <https://ismales.github.io/mobile-menu.html>
+1.5 - <https://ismales.github.io/repair-brands.html>
