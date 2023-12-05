@@ -42,6 +42,10 @@
   background-image: url(/img/icon/expand.svg);
 }
 
+.button--bg-img-expand--pressed {
+  background-image: url(/img/icon/expand--pressed.svg);
+}
+
 .button--bg-img-profile {
   background-image: url(/img/icon/profile.svg);
 }
@@ -58,6 +62,11 @@
   background-image: url(/img/icon/close.svg);
 }
 
+.button--bg-img-go-over {
+  background-color: #FFF;
+  background-image: url(/img/icon/go-over.svg);
+}
+
 
 .button--square {
   width: 24px;
@@ -65,14 +74,17 @@
 }
 
 .button__expand {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  justify-content: space-around;
-  align-items: center;
-  width: 140px;
-  height: 24px;
+  text-align: start;
+  background-color: transparent;
   background-repeat: no-repeat;
+  background-color: inherit;
+  background-position: -5px;
+  padding-left: 20px;
   margin: 10px 0;
+}
+
+.repair-brands__button {
+  width: 132px;
 }
 
 .buttons {
@@ -258,6 +270,36 @@
   font-weight: 700;
 }
 
+.repair-brands__list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  row-gap: 16px;
+  margin: 16px auto;
+}
+
+.repair-brands__item {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 16px;
+  background-color: #FFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+}
+
+.repair-brands__item-d-none {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #B5B6BC;
+}
+
 .gray {
   color: #7E7E82;
 }
@@ -266,7 +308,11 @@
   gap: 12px;
 }
 
-@media (max-width: 768px) {
+.uppercase {
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
   .contacts {
     display: none;
   }
@@ -295,15 +341,41 @@
   .menu-side__contacts {
     display: flex;
   }
+
+  .swiper {
+    height: 130px;
+  }
+
+  .swiper-slide {
+    max-width: 240px;
+  }
+
+  .repair-brands__item {
+    height: 72px;
+  }
+
+  .repair-brands__button {
+    display: none;
+  }
 }
 
-@media (max-width: 1120px) {
+@media (min-width: 761px) and (max-width: 1119px) {
   .desktop__buttons {
     display: none;
   }
 
   .hidden-text-2 {
     display: none;
+  }
+
+  .repair-brands__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .repair-brands__item {
+    width: 224px !important;
   }
 }
 
@@ -323,5 +395,14 @@
   .partition__list {
     overflow-x: auto;
     white-space: normal;
+  }
+
+  .repair-brands__list {
+    flex-wrap: wrap;
+    column-gap: 32px;
+  }
+
+  .repair-brands__item {
+    width: 240px !important;
   }
 }
