@@ -2,7 +2,7 @@ const repairBrandsExpandButton = document.querySelector(".repair-brands__button"
 const brandsList = document.querySelector(".repair-brands__list");
 const brandsListItem = document.querySelector(".repair-brands__item");
 
-document.addEventListener("DOMContentLoaded", (item) => {
+document.addEventListener("DOMContentLoaded", () => {
   let windowWidth = document.documentElement.clientWidth;
 
   if (windowWidth > 1119) {
@@ -20,6 +20,7 @@ const buttonPressed = (item) => {
   repairBrandsExpandButton.addEventListener("click", () => {
     if (repairBrandsExpandButton.innerText == "Показать все") {
       repairBrandsExpandButton.textContent = "Скрыть";
+      repairBrandsExpandButton.classList.remove("button--bg-img-expand");
       repairBrandsExpandButton.classList.add("button--bg-img-expand--pressed");
       showEL(item);
     } else {
