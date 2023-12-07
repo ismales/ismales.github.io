@@ -270,6 +270,12 @@
   font-weight: 700;
 }
 
+.repair-brands__header {
+  height: 56px;
+  padding: 16px 0;
+  padding-left: 24px;
+}
+
 .repair-brands__list {
   display: flex;
   justify-content: flex-start;
@@ -346,6 +352,11 @@
     height: 130px;
   }
 
+  .repair-brands__header {
+    height: 80px;
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFF 98.61%);
+  }
+
   .repair-brands__item {
     height: 72px;
   }
@@ -362,6 +373,10 @@
 
   .hidden-text-2 {
     display: none;
+  }
+
+  .repair-brands__header {
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFF 100%);
   }
 
   .repair-brands__list {
@@ -400,5 +415,9 @@
 
   .repair-brands__item {
     width: 240px !important;
+  }
+
+  .repair-brands__header {
+    background: linear-gradient(270deg, #F8F8F8 0%, #FFF 98.61%);
   }
 }
