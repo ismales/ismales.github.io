@@ -1,0 +1,34 @@
+.text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  font-weight: 400;
+
+  @media (min-width: $screen-s) {
+    line-height: 20px;
+  }
+}
+
+.text--m {
+  font-size: 16px;
+}
+
+.text--l {
+  font-size: 24px;
+}
+.text--xl {
+  font-size: 28px;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.text--gray {
+  color: $active-text;
+}
+
+.text--black {
+  color: $default-text;
+}

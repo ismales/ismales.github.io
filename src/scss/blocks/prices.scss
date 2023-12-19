@@ -1,0 +1,133 @@
+.prices__header {
+  width: 100%;
+  height: 56px;
+  padding: 16px 24px;
+  background: linear-gradient(270deg, #f8f8f8 0%, #fff 98.61%);
+
+  @media (min-width: $screen-s) {
+    background: linear-gradient(90deg, #f8f8f8 1.39%, #fff 100%);
+  }
+}
+.prices__heading {
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  padding: 16px 0;
+}
+
+.prices__main {
+  width: 100%;
+}
+
+.prices-list__heading {
+  @media (max-width: $screen-s) {
+    display: none;
+  }
+  @media (min-width: $screen-s) {
+    display: flex;
+    padding: 16px;
+    padding-bottom: 0;
+  }
+}
+.prices-list__heading > * {
+  &:not(:first-child) {
+    width: calc((100% - 450px) / 3);
+  }
+  &:first-child {
+    min-width: 400px;
+    margin-right: auto;
+  }
+  &:last-child {
+    width: 119px;
+  }
+}
+
+.prices__list {
+  padding-left: 0;
+
+  @media (min-width: $screen-s) {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+  }
+}
+
+.prices__item {
+  box-sizing: border-box;
+  height: 200px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+
+  @media (min-width: $screen-s) {
+    width: 100% !important;
+    height: 64px;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.prices__service {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  @media (min-width: $screen-s) {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 0;
+  }
+}
+
+.prices__service--heading--d-none {
+  @media (min-width: $screen-s) {
+    display: none;
+  }
+}
+
+.prices__service > * {
+  @media (max-width: $screen-s) {
+    display: inline;
+
+    &:last-child {
+      align-self: flex-end;
+    }
+  }
+
+  @media (min-width: $screen-s) {
+    &:not(:first-child) {
+      width: calc((100% - 425px) / 3);
+    }
+    &:first-child {
+      min-width: 375px;
+      margin-right: auto;
+    }
+  }
+}
+
+.prices__button {
+  @media (max-width: $screen-s) {
+    position: absolute;
+    bottom: 0;
+  }
+  width: 119px !important;
+  min-height: 32px;
+  background: url(/img/prices-order-button.svg);
+}
+.prices__about-prices {
+  max-width: 421px;
+  padding: 0 32px;
+}
+
+.get-offer::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  background: url(/img/go-over.svg) no-repeat center/160%;
+}

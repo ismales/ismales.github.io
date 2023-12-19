@@ -1,0 +1,15 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  transform: translate(0);
+}
+
+.link--active {
+  color: $active-element;
+}
+
+.link:hover {
+  transition: 0.2s;
+  transform: translate(1px, -2px);
+}

@@ -1,0 +1,15 @@
+@import "../../node_modules/swiper/swiper.css";
+@import "../../node_modules/swiper/modules/pagination.css";
+
+@media (max-width: $screen-s) {
+  .swiper-wrapper {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #b5b6bc;
+  }
+}

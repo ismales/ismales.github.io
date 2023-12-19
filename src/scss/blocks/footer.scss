@@ -1,0 +1,41 @@
+.main-page__footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+  padding: 32px 24px;
+  border-top: 1px solid #d9fff5;
+
+  @media (max-width: $screen-s) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 16px;
+  }
+
+  @media (min-width: $screen-l) {
+    padding-left: 336px;
+  }
+}
+
+.rigths-reserved {
+  text-align: center;
+
+  @media (min-width: $screen-s) {
+    text-align: start;
+  }
+}
+
+.not-offer-text {
+  width: 312px;
+  text-align: center;
+
+  @media (min-width: $screen-s) {
+    width: 213px;
+    text-align: end;
+  }
+
+  @media (min-width: $screen-m) {
+    width: 330px;
+  }
+}

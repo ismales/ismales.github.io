@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $ff;
+}
+
+.page-container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: $page-background-color;
+}
+
+.menu__divider {
+  width: 2px;
+  height: 32px;
+  border-radius: 1px;
+  background-color: #eaeaea;
+
+  @media (max-width: $screen-s) {
+    display: none;
+  }
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.gap {
+  gap: 12px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.modal--show {
+  transition: 0.3s;
+  transform: translateX(0px);
+}
+
+.fog-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9605;
+  background: #fff;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.show-more {
+  height: 90%;
+  overflow-y: visible;
+}
+
+.padding {
+  padding: 16px 24px;
+}

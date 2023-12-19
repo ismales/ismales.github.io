@@ -1,0 +1,30 @@
+.main {
+  @media (min-width: $screen-l) {
+    max-width: 1120px;
+    margin-left: 320px;
+  }
+}
+
+.main-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9fff5;
+
+  @media (min-width: $screen-l) {
+    display: none;
+  }
+}
+
+.main__desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.main__head {
+  font-size: 28px;
+  margin: 0;
+}

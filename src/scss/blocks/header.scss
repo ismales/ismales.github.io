@@ -1,0 +1,26 @@
+.header--no-border {
+  border: none;
+}
+
+.header__right-side {
+  display: flex;
+  align-items: center;
+}
+
+.header--bg-color--white {
+  background-color: $page-background-color;
+  background-size: 120%;
+}
+
+.page-heading--border {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  height: 40px;
+  border-left: 4px solid $active-border;
+  border-radius: 0 5px 5px 0;
+
+  @media (min-width: $screen-l) {
+    left: 320px;
+  }
+}

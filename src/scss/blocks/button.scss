@@ -1,0 +1,95 @@
+.button {
+  box-sizing: border-box;
+  background-color: inherit;
+  border-color: transparent;
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.button--circle {
+  background-position: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.button:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.button--bg-img-burger {
+  background-image: url(/img/burger.svg);
+}
+
+.button--bg-img-call {
+  background-image: url(/img/call.svg);
+}
+
+.button--bg-img-chat {
+  background-image: url(/img/chat.svg);
+}
+
+.button--bg-img-checkstatus {
+  background-image: url(/img/checkstatus.svg);
+}
+
+.button--bg-img-expand {
+  background-image: url(/img/expand.svg);
+}
+
+.button--bg-img-expand--pressed {
+  background-image: url(/img/expand--pressed.svg);
+}
+
+.button--bg-img-profile {
+  background-image: url(/img/profile.svg);
+}
+
+.button--bg-img-repair {
+  background-image: url(/img/repair.svg);
+}
+
+.button--bg-img-search {
+  background-image: url(/img/search.svg);
+}
+
+.button--bg-img-close {
+  background-image: url(/img/close.svg);
+}
+
+.button--bg-img-go-over {
+  background-color: #fff;
+  background-image: url(/img/go-over.svg);
+}
+
+.button__expand {
+  width: 200px;
+  height: 24px;
+  text-align: start;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  background-position: -5px;
+  padding-left: 20px;
+}
+
+.desktop__buttons {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: $screen-l) {
+    display: none;
+  }
+  @media (min-width: $screen-l) {
+    display: flex;
+  }
+}
+
+.contacts-buttons {
+  display: flex;
+  align-items: center;
+  @media (max-width: $screen-s) {
+    display: none;
+  }
+}
